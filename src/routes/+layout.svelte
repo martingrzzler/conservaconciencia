@@ -3,7 +3,7 @@
 	import '../app.css';
 </script>
 
-<div class="bg-[#01B4B7] min-h-screen pb-10 w-screen overflow-x-hidden">
+<div class="bg-[#01B4B7] min-h-screen pb-32 w-screen overflow-x-hidden">
 	<slot />
 	<a
 		href="https://wa.me/+573204550774?text=Hello!%20I%20have%20a%20question."
