@@ -26,5 +26,5 @@
 		<a href="https://web.facebook.com/ConservaconCiencia/?locale=es_LA&_rdc=1&_rdr">
 			<Facebook className="fill-teal-700" />
 		</a>
-	<div />
+	</div>
 </div>
