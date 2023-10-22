@@ -4,13 +4,15 @@
 </script>
 
 <div>
-	<div class="flex items-center justify-center">
+	<a href="/" class="flex items-center justify-center">
 		<img class="" width="700" src="/logo.png" alt="logo" />
-	</div>
+	</a>
 
-	<div class="flex flex-col gap-10 items-center px-4">
-		<div class="rounded-xl overflow-hidden relative shadow-xl bg-stone-200 text-stone-700 max-w-xl">
-			<div class="carousel carousel-center max-w-md p-4 space-x-4 bg-stone-200 rounded-box">
+	<div class="px-4">
+		<div
+			class="rounded-xl px-2 overflow-hidden relative shadow-xl bg-stone-200 text-stone-700 max-w-xl"
+		>
+			<div class="carousel carousel-center p-4 space-x-4 bg-stone-200 rounded-box">
 				{#each offer.images as imagePath}
 					<div class="carousel-item">
 						<img class="object-cover rounded-box h-[30rem]" src={imagePath} alt="offer" />
