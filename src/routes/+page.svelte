@@ -30,7 +30,7 @@
 			transform: translateX(0) translateY(10rem);
 		}
 		100% {
-			transform: translateX(-90%) translateY(12rem);
+			transform: translateX(-50vw) translateY(12rem);
 		}
 	}
 
@@ -39,7 +39,7 @@
 			transform: translateX(0) translateY(7rem);
 		}
 		100% {
-			transform: translateX(100%) translateY(8rem);
+			transform: translateX(60vw) translateY(8rem);
 		}
 	}
 
