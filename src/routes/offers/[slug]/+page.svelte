@@ -22,7 +22,7 @@
 			<div class="p-5">
 				<h1 class="text-xl font-semibold">{offer.title}</h1>
 				<p class="mt-4">{offer.description}</p>
-				<h2 class="text-lg font-semibold mt-4">Details</h2>
+				<h2 class="text-lg font-semibold mt-4">Detalles</h2>
 				<p class=" whitespace-pre-wrap">{offer.details}</p>
 				<h2 class="text-lg font-semibold mt-4">Incluye</h2>
 				<ul>
