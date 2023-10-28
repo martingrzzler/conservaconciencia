@@ -4,6 +4,7 @@ type Offer = {
 	details: string;
 	included: string[];
 	description: string;
+	price: string;
 	images: string[];
 };
 export const offers: Offer[] = [
@@ -27,6 +28,11 @@ En esta experiencia el protagonista sera el paisaje, ya que en la cumbre del cer
 			'Interpretación ambiental – Guia local profesional',
 			'Grupos mayores a 7 incluye guia adicional'
 		],
+		price: `Con transporte desde Bogotá. 
+1 persona: 380.000$     2 personas: 210.000$c/u       3 ó 4 personas: 150.000$ c/u    Mas de 5 personas: 110.000$ c/u
+Sin transporte desde Bogotá
+1 persona 350.000$     2 personas: 190.000$c/u     3 ó 4 personas: 130.000$ c/u     Mas de 5 personas: 95.000$c/u
+Cotiza tu experiencia segun tu necesidad`,
 		images: []
 	},
 	{
@@ -51,6 +57,7 @@ Es una ruta perfecta para el avistamiento de aves de montaña y orquídeas exót
 			'Interpretación ambiental – Guia local profesional Biologa',
 			'Guia local obligatorio de la reserva natural'
 		],
+		price: `1 2 pers: 650.000$    3 pers:  200.000$c/u     4 pers: 165.000$ c/u      +5 pers: 125.000$c/u`,
 		images: ['1.jpg', '2.jpeg', '3.jpeg', '4.jpeg', '5.jpeg'].map((name) => `/maza-fonte/${name}`)
 	},
 	{
@@ -72,6 +79,8 @@ La cara del indio tiene una vista maravillosa desde donde se observan los munici
 			'Interpretación ambiental – Profesional biología',
 			'Transporte desde Bogotá'
 		],
+		price: `Con transporte incluido: 1 prs: 320.000$     2  -3 pers:  160.000$c/u     4 pers:  110.000$ c/u     + 5 pers: 95.000$c/u
+Sin transporte desde Bogota : 1 pers: 300.000$     2- 3 pers: 140.000$c/u     4 pers:  95.000$ c/u   +5 pers: 80.000$c/u`,
 		images: ['1.jpeg'].map((name) => `/cara-del-indio/${name}`)
 	},
 	{
@@ -95,6 +104,8 @@ La experiencia a la que les invitamos, pasará por visitar pinturas rupestres, c
 			'Registro fotográfico digital',
 			'Transporte desde bogota (ida y regreso)'
 		],
+		price: `Con transporte incluido:  1 Prs: 300.000$     2  - 3Prs:  190.000$c/u     4Prs: 110.000$ c/u   +5Pers: 85.000$c/u
+Sin transporte incluido:  1 Prs: 280.000$     2  - 3Prs:  175.000$c/u       4Prs: 95.000$ c/u     +5Pers: 75.000$ c/u`,
 		images: []
 	},
 	{
@@ -114,6 +125,8 @@ Edad y condición física del participante: 5 - 70  años`,
 			'Interpretación ambiental',
 			'Almuerzo y snacks'
 		],
+		price: `Con transporte 1 Prs: 450.000$           2Prs: 280.000$c/u         3-  4Prs: 210.000$ c/u         +5P : 160.000$c/u
+Sin transporte: 1 Prs: 300.000$     2Prs:  190.000$c/u         3-  4Prs: 160.000$ c/u    +5P : 125.000$c/u`,
 		images: []
 	},
 	{
@@ -135,6 +148,9 @@ Un recorrido por la asombrosa historia de las antiguas civilizaciones que habita
 			'Transporte 4x4 de retorno al municipio',
 			'Registro fotografico'
 		],
+		price: `
+Con transporte desde Bogota : 1 pers: 350.000$         3 -4 pers:  120.000$ c/u        +5pers:  95.000$c/u
+Sin transporte desde Bogota : 1 pers: 290.000$           3 -4 pers:  99.000$ c/u         +5 pers:  75.000$c/u`,
 		images: []
 	},
 	{
@@ -162,6 +178,8 @@ RUTA 2. Laguna Sagrada Ubaque + Museo etnocultura`,
 			'Entrada al Museo + Recorrido con guia Local',
 			'Circulo de la palabra.'
 		],
+		price: `PLAN 1 :     1Prs  : 295.000$   2 Prs: 185.000$c/u   3 - 4 Prs: 125.000$c/u    5 - 8 Prs: 95.000$c/u
+PLAN 2:     1Prs: 350.000$   2 Prs: 210.000$c/u   3 - 4 Prs.: 150.000$c/u    5 - 8 Prs: 110.000$c/u`,
 		images: []
 	},
 	{
@@ -179,6 +197,8 @@ Esta experiencia estará acompañada de guias profesionales en escalada, biolog�
 			'Equipo de escalada (cuerda, arnes, casco, cintas exprés, cintas generales, mosquetones de seguridad) - No incluye pies de gato',
 			'Taller de inducción a la escalada en roca.'
 		],
+		price: `Con transporte desde Bogota       1Pers: 350.000$   2 pers: 240.000$ c/u     3-4 pers: 180.000$ c/u       + 5 pers: 150.000$c/u   
+Sin transporte  1Pers:335.000$    2 pers: 225.000$ c/u       3-4 pers: 165.000$ c/u      + 5 pers: 120.000$c/u       `,
 		images: []
 	},
 	{
@@ -193,6 +213,7 @@ Edad y condición física del participante: Requierre que los caminantes tengan 
 		included: [
 			'Puedes solicitar nuestro catalogo completo de esta experiencia para todos los detalles. Es posible adecuar el plan a tus requerimientos y tiempos.'
 		],
+		price: '',
 		images: []
 	},
 	{
@@ -211,6 +232,7 @@ Edad y condición física del participante: Requierre que los caminantes tengan 
 			'HOSPEDAJE',
 			'Porteo de maletas (opcional)'
 		],
+		price: `Para grupos de +3 personas: 1´500.000$ c/u.  Si deseas ir solo o con solo dos personas, podemos enviarte cotización, una vez nos contactes.`,
 		images: []
 	}
 ];

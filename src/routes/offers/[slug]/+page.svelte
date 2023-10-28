@@ -30,6 +30,8 @@
 						<li>{include}</li>
 					{/each}
 				</ul>
+				<h2 class="text-lg font-semibold mt-4">Precio</h2>
+				<p class=" whitespace-pre-wrap">{offer.price}</p>
 
 				<button class="btn btn-primary mt-8 text-stone-300">Reserva ya</button>
 			</div>
