@@ -21,7 +21,16 @@
 			</div>
 			<div class="p-5">
 				<h1 class="text-xl font-semibold">{offer.title}</h1>
-				<p>{offer.description}</p>
+				<p class="mt-4">{offer.description}</p>
+				<h2 class="text-lg font-semibold mt-4">Details</h2>
+				<p class=" whitespace-pre-wrap">{offer.details}</p>
+				<h2 class="text-lg font-semibold mt-4">Incluye</h2>
+				<ul>
+					{#each offer.included as include}
+						<li>{include}</li>
+					{/each}
+				</ul>
+
 				<button class="btn btn-primary mt-8 text-stone-300">Reserva ya</button>
 			</div>
 		</div>
