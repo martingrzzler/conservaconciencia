@@ -1,4 +1,6 @@
 <script>
+	import WhatsApp from '$lib/icons/WhatsApp.svelte';
+
 	export let data;
 	const { offer } = data;
 </script>
@@ -32,8 +34,14 @@
 				</ul>
 				<h2 class="text-lg font-semibold mt-4">Precio</h2>
 				<p class=" whitespace-pre-wrap">{offer.price}</p>
-
-				<button class="btn btn-primary mt-8 text-stone-300">Reserva ya</button>
+				<a
+					href={`https://wa.me/+573204550774?text=${encodeURIComponent(
+						`Hola Conserva con Ciencia, me gustaría reservar la oferta ${offer.title}`
+					)}`}
+					class="btn btn-primary mt-8 text-stone-300"
+				>
+					Reserva ya
+				</a>
 			</div>
 		</div>
 	</div>

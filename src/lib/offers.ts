@@ -33,7 +33,7 @@ En esta experiencia el protagonista sera el paisaje, ya que en la cumbre del cer
 Sin transporte desde Bogotá
 1 persona 350.000$     2 personas: 190.000$c/u     3 ó 4 personas: 130.000$ c/u     Mas de 5 personas: 95.000$c/u
 Cotiza tu experiencia segun tu necesidad`,
-		images: []
+		images: [...Array(7).keys()].map((i) => i + 1).map((n) => `/cerro-quinto/${n}.jpeg`)
 	},
 	{
 		title: 'Maza Fonte',
@@ -106,7 +106,7 @@ La experiencia a la que les invitamos, pasará por visitar pinturas rupestres, c
 		],
 		price: `Con transporte incluido:  1 Prs: 300.000$     2  - 3Prs:  190.000$c/u     4Prs: 110.000$ c/u   +5Pers: 85.000$c/u
 Sin transporte incluido:  1 Prs: 280.000$     2  - 3Prs:  175.000$c/u       4Prs: 95.000$ c/u     +5Pers: 75.000$ c/u`,
-		images: []
+		images: [...Array(5).keys()].map((i) => i + 1).map((n) => `/valle-escondido/${n}.jpeg`)
 	},
 	{
 		title: 'Cascada la Chorrera',
@@ -127,7 +127,7 @@ Edad y condición física del participante: 5 - 70  años`,
 		],
 		price: `Con transporte 1 Prs: 450.000$           2Prs: 280.000$c/u         3-  4Prs: 210.000$ c/u         +5P : 160.000$c/u
 Sin transporte: 1 Prs: 300.000$     2Prs:  190.000$c/u         3-  4Prs: 160.000$ c/u    +5P : 125.000$c/u`,
-		images: []
+		images: [...Array(5).keys()].map((i) => i + 1).map((n) => `/cascada-la-chorrera/${n}.jpeg`)
 	},
 	{
 		title: 'Laguna sagrada de Ubaque',
@@ -151,7 +151,7 @@ Un recorrido por la asombrosa historia de las antiguas civilizaciones que habita
 		price: `
 Con transporte desde Bogota : 1 pers: 350.000$         3 -4 pers:  120.000$ c/u        +5pers:  95.000$c/u
 Sin transporte desde Bogota : 1 pers: 290.000$           3 -4 pers:  99.000$ c/u         +5 pers:  75.000$c/u`,
-		images: []
+		images: [...Array(5).keys()].map((i) => i + 1).map((n) => `/laguna-sagrada-de-ubaque/${n}.jpeg`)
 	},
 	{
 		title: 'Ruta Biocultural Mhuysca',
@@ -199,7 +199,7 @@ Esta experiencia estará acompañada de guias profesionales en escalada, biolog�
 		],
 		price: `Con transporte desde Bogota       1Pers: 350.000$   2 pers: 240.000$ c/u     3-4 pers: 180.000$ c/u       + 5 pers: 150.000$c/u   
 Sin transporte  1Pers:335.000$    2 pers: 225.000$ c/u       3-4 pers: 165.000$ c/u      + 5 pers: 120.000$c/u       `,
-		images: []
+		images: [...Array(4).keys()].map((i) => i + 1).map((n) => `/escalada-choachi/${n}.jpeg`)
 	},
 	{
 		title: 'Trekking al parque Nacional Los nevados',

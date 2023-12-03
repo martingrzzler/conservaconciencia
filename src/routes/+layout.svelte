@@ -10,7 +10,9 @@
 	<div class="min-h-screen w-[min(100vw,30rem)] pb-32 overflow-x-hidden">
 		<slot />
 		<a
-			href="https://wa.me/+573204550774?text=Hello!%20I%20have%20a%20question."
+			href={`https://wa.me/+573204550774?text=${encodeURIComponent(
+				'Hola Conserva con Ciencia, me gustaría saber más sobre sus servicios'
+			)}`}
 			class="fixed bottom-4 left-4 bg-white z-50 rounded-full p-4 shadow-2xl"
 		>
 			<WhatsApp />
