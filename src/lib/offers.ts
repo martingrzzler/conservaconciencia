@@ -180,7 +180,7 @@ RUTA 2. Laguna Sagrada Ubaque + Museo etnocultura`,
 		],
 		price: `PLAN 1 :     1Prs  : 295.000$   2 Prs: 185.000$c/u   3 - 4 Prs: 125.000$c/u    5 - 8 Prs: 95.000$c/u
 PLAN 2:     1Prs: 350.000$   2 Prs: 210.000$c/u   3 - 4 Prs.: 150.000$c/u    5 - 8 Prs: 110.000$c/u`,
-		images: [...Array(5).keys()].map((i) => i + 1).map((n) => `/ruta-biocultural-mhuysca/${n}.jpeg`)
+		images: [...Array(4).keys()].map((i) => i + 1).map((n) => `/ruta-biocultural-mhuysca/${n}.jpeg`)
 	},
 	{
 		title: 'Escalada Choachi,Rutas para disfrutar: 3 rutas',
