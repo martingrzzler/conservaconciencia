@@ -81,7 +81,7 @@ La cara del indio tiene una vista maravillosa desde donde se observan los munici
 		],
 		price: `Con transporte incluido: 1 prs: 320.000$     2  -3 pers:  160.000$c/u     4 pers:  110.000$ c/u     + 5 pers: 95.000$c/u
 Sin transporte desde Bogota : 1 pers: 300.000$     2- 3 pers: 140.000$c/u     4 pers:  95.000$ c/u   +5 pers: 80.000$c/u`,
-		images: ['1.jpeg'].map((name) => `/cara-del-indio/${name}`)
+		images: [...Array(5).keys()].map((i) => i + 1).map((n) => `/cara-del-indio/${n}.jpeg`)
 	},
 	{
 		title: 'Valle escondido',
@@ -214,7 +214,9 @@ Edad y condición física del participante: Requierre que los caminantes tengan 
 			'Puedes solicitar nuestro catalogo completo de esta experiencia para todos los detalles. Es posible adecuar el plan a tus requerimientos y tiempos.'
 		],
 		price: '',
-		images: []
+		images: [...Array(7).keys()]
+			.map((i) => i + 1)
+			.map((n) => `/trekking-parque-nacional-los-nevados/${n}.jpeg`)
 	},
 	{
 		title: 'Nevado del Tolima (intento de cumbre )',
@@ -233,6 +235,6 @@ Edad y condición física del participante: Requierre que los caminantes tengan 
 			'Porteo de maletas (opcional)'
 		],
 		price: `Para grupos de +3 personas: 1´500.000$ c/u.  Si deseas ir solo o con solo dos personas, podemos enviarte cotización, una vez nos contactes.`,
-		images: []
+		images: [...Array(8).keys()].map((i) => i + 1).map((n) => `/nevado-del-tolima/${n}.jpeg`)
 	}
 ];

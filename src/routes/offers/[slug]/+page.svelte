@@ -1,6 +1,4 @@
 <script>
-	import WhatsApp from '$lib/icons/WhatsApp.svelte';
-
 	export let data;
 	const { offer } = data;
 </script>
