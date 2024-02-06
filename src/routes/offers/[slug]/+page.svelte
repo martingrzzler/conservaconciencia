@@ -30,8 +30,6 @@
 						<li>{include}</li>
 					{/each}
 				</ul>
-				<h2 class="text-lg font-semibold mt-4">Precio</h2>
-				<p class=" whitespace-pre-wrap">{offer.price}</p>
 				<a
 					href={`https://wa.me/+573204550774?text=${encodeURIComponent(
 						`Hola Conserva con Ciencia, me gustaría reservar la oferta ${offer.title}`
