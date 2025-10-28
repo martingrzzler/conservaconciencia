@@ -30,8 +30,8 @@ En esta experiencia el protagonista sera el paisaje, ya que en la cumbre del cer
 		images: [...Array(7).keys()].map((i) => i + 1).map((n) => `/cerro-quinto/${n}.jpeg`)
 	},
 	{
-		title: 'Maza Fonte',
-		slug: 'maza-fonte',
+		title: 'Hike Entre gigantes',
+		slug: 'hike-entre-gigantes',
 		details: `Duración estimada: 6 horas
 Sendero tipo: LR (Largo recorrido) OPC 1  y OPC 2 MR (mediano recorrido)
 Exigencia: 4 de 5  Alta. 🏃‍♀️
@@ -51,8 +51,34 @@ Es una ruta perfecta para el avistamiento de aves de montaña y orquídeas exót
 			'Interpretación ambiental – Guia local profesional Biologa',
 			'Guia local obligatorio de la reserva natural'
 		],
-		images: ['1.jpg', '2.jpeg', '3.jpeg', '4.jpeg', '5.jpeg'].map((name) => `/maza-fonte/${name}`)
+		images: ['1.jpg', '2.jpeg', '3.jpeg', '4.jpeg', '5.jpeg'].map((name) => `/hike-entre-gigantes/${name}`)
 	},
+	 {
+		 title: 'Cañón de Hycagua',
+		 slug: 'canon-hycagua',
+		 details: `Duración: 5 horas
+Distancia: 4.5 km
+Desnivel acumulado: 250 m
+Nivel de dificultad: 3/5
+Tipo de sendero: técnico, con tramos de bosque y cañón`,
+		 description: `Embárcate en una experiencia única entre montañas, bosque de niebla y el sonido del agua que da vida al Cañón de Hycagua.
+	Caminaremos por senderos cubiertos de niebla hasta llegar a una hermosa cascada donde podrás sentir la energía pura del agua, la roca y la montaña.
+	Un día para desconectarte, reconectarte con la naturaleza y vivir Choachí desde una perspectiva diferente.
+
+	Al unirte, apoyas un proyecto de restauración y conservación que protege los ecosistemas altoandinos y su biodiversidad.
+
+	Cupos limitados — reserva tu lugar y deja que la montaña te cuente su historia.`,
+		 included: [
+			 'Almuerzo',
+			 'Seguro de accidentes',
+			 'Registro fotográfico digital',
+			 'Interpretación ambiental y cultural',
+			 'Guianza profesional local - Biólogo/a',
+			 'Entrada a la reserva privada',
+			 'Transporte desde Bogotá'
+		 ],
+		 images: [...Array(14).keys()].map((i) => i + 1).map((n) => `/canon-hycagua/${n}.jpeg`)
+	 },
 	{
 		title: 'La cara del indio',
 		slug: 'la-cara-del-indio',
@@ -75,8 +101,8 @@ La cara del indio tiene una vista maravillosa desde donde se observan los munici
 		images: [...Array(5).keys()].map((i) => i + 1).map((n) => `/cara-del-indio/${n}.jpeg`)
 	},
 	{
-		title: 'Valle escondido',
-		slug: 'valle-escondido',
+		title: 'Bosque encantado',
+		slug: 'bosque-encantado',
 		details: `Duración estimada de la ruta: 4 horas
 Sendero tipo: GR (Mediano recorrido)
 Condiciones climáticas y atmosféricas: Es posible que se presenten lluvias, es importante llevar impermeables, zapatos tipo botas de caucho o para trekking, abrigo para el frio, ropa cómoda para el sendero. Medias de cambio.
@@ -95,7 +121,7 @@ La experiencia a la que les invitamos, pasará por visitar pinturas rupestres, c
 			'Registro fotográfico digital',
 			'Transporte desde bogota (ida y regreso)'
 		],
-		images: [...Array(5).keys()].map((i) => i + 1).map((n) => `/valle-escondido/${n}.jpeg`)
+		images: [...Array(5).keys()].map((i) => i + 1).map((n) => `/bosque-encantado/${n}.jpeg`)
 	},
 	{
 		title: 'Cascada la Chorrera',
