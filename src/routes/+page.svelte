@@ -1,6 +1,6 @@
-<script>
-	export let data;
+<script lang="ts">
 	import OfferCard from '$lib/OfferCard.svelte';
+	let { data } = $props();
 </script>
 
 <div class="flex justify-center">

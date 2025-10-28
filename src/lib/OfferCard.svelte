@@ -1,8 +1,17 @@
 <script lang="ts">
-	export let title: string;
-	export let description: string;
-	export let imagePath: string;
-	export let slug: string;
+	interface Props {
+		title: string;
+		description: string;
+		imagePath: string;
+		slug: string;
+	}
+
+	let {
+		title,
+		description,
+		imagePath,
+		slug
+	}: Props = $props();
 </script>
 
 <div class="flex flex-col gap-10 items-center px-4">

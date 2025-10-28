@@ -1,14 +1,19 @@
-<script>
+<script lang="ts">
 	import Facebook from '$lib/icons/Facebook.svelte';
 	import Instagram from '$lib/icons/Instagram.svelte';
 	import TripAdvisor from '$lib/icons/TripAdvisor.svelte';
 	import WhatsApp from '$lib/icons/WhatsApp.svelte';
 	import '../app.css';
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
 </script>
 
 <div class="bg-[#01B4B7] flex justify-center">
 	<div class="min-h-screen w-[min(100vw,30rem)] pb-32 overflow-x-hidden">
-		<slot />
+		{@render children?.()}
 		<a
 			href={`https://wa.me/+573204550774?text=${encodeURIComponent(
 				'Hola Conserva con Ciencia, me gustaría saber más sobre sus servicios'
