@@ -51,33 +51,56 @@ Es una ruta perfecta para el avistamiento de aves de montaña y orquídeas exót
 			'Interpretación ambiental – Guia local profesional Biologa',
 			'Guia local obligatorio de la reserva natural'
 		],
-		images: ['1.jpg', '2.jpeg', '3.jpeg', '4.jpeg', '5.jpeg'].map((name) => `/hike-entre-gigantes/${name}`)
+		images: ['1.jpg', '2.jpeg', '3.jpeg', '4.jpeg', '5.jpeg'].map(
+			(name) => `/hike-entre-gigantes/${name}`
+		)
 	},
-	 {
-		 title: 'Cañón de Hycagua',
-		 slug: 'canon-hycagua',
-		 details: `Duración: 5 horas
+	{
+		title: 'Cañón de Hycagua',
+		slug: 'canon-hycagua',
+		details: `Duración: 5 horas
 Distancia: 4.5 km
 Desnivel acumulado: 250 m
 Nivel de dificultad: 3/5
 Tipo de sendero: técnico, con tramos de bosque y cañón`,
-		 description: `Embárcate en una experiencia única entre montañas, bosque de niebla y el sonido del agua que da vida al Cañón de Hycagua.
+		description: `Embárcate en una experiencia única entre montañas, bosque de niebla y el sonido del agua que da vida al Cañón de Hycagua.
 	Caminaremos por senderos cubiertos de niebla hasta llegar a una hermosa cascada donde podrás sentir la energía pura del agua, la roca y la montaña.
 	Un día para desconectarte, reconectarte con la naturaleza y vivir Choachí desde una perspectiva diferente.
 
 	Al unirte, apoyas un proyecto de restauración y conservación que protege los ecosistemas altoandinos y su biodiversidad.
 
 	Cupos limitados — reserva tu lugar y deja que la montaña te cuente su historia.`,
+		included: [
+			'Almuerzo',
+			'Seguro de accidentes',
+			'Registro fotográfico digital',
+			'Interpretación ambiental y cultural',
+			'Guianza profesional local - Biólogo/a',
+			'Entrada a la reserva privada',
+			'Transporte desde Bogotá'
+		],
+		images: [...Array(6).keys()].map((i) => i + 1).map((n) => `/canon-hycagua/${n}.jpeg`)
+	},
+	 {
+		 title: 'Santuario de Niebla',
+		 slug: 'santuario-de-niebla',
+		 details: `Duración: 6 horas
+Distancia: 8 a 10 km
+Altitud: 2.800 - 3.200 msnm
+Dificultad: Media`,
+		 description: `Explora un bosque de niebla en conservación y restauración entre los farallones de Supatá y Subachoque.
+Sumérgete en la magia andina, visita la Cueva del Oro, las Rocas del Cambio de Perspectiva y camina por senderos llenos de vida y sabiduría.
+
+Cupos limitados. Reserva tu lugar y déjate envolver por la niebla y la energía del bosque.`,
 		 included: [
-			 'Almuerzo',
+			 'Transporte desde Bogotá (público)',
+			 'Transporte 4x4 desde Subachoque',
+			 'Ingreso a la reserva',
+			 'Guía local y guía profesional (WFR)',
 			 'Seguro de accidentes',
-			 'Registro fotográfico digital',
-			 'Interpretación ambiental y cultural',
-			 'Guianza profesional local - Biólogo/a',
-			 'Entrada a la reserva privada',
-			 'Transporte desde Bogotá'
+			 'Registro fotográfico'
 		 ],
-		 images: [...Array(14).keys()].map((i) => i + 1).map((n) => `/canon-hycagua/${n}.jpeg`)
+		 images: [...Array(8).keys()].map((i) => i + 1).map((n) => `/santuario-de-niebla/${n}.jpeg`)
 	 },
 	{
 		title: 'La cara del indio',
