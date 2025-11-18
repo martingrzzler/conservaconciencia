@@ -81,27 +81,27 @@ Tipo de sendero: técnico, con tramos de bosque y cañón`,
 		],
 		images: [...Array(6).keys()].map((i) => i + 1).map((n) => `/canon-hycagua/${n}.jpeg`)
 	},
-	 {
-		 title: 'Santuario de Niebla',
-		 slug: 'santuario-de-niebla',
-		 details: `Duración: 6 horas
+	{
+		title: 'Santuario de Niebla',
+		slug: 'santuario-de-niebla',
+		details: `Duración: 6 horas
 Distancia: 8 a 10 km
 Altitud: 2.800 - 3.200 msnm
 Dificultad: Media`,
-		 description: `Explora un bosque de niebla en conservación y restauración entre los farallones de Supatá y Subachoque.
+		description: `Explora un bosque de niebla en conservación y restauración entre los farallones de Supatá y Subachoque.
 Sumérgete en la magia andina, visita la Cueva del Oro, las Rocas del Cambio de Perspectiva y camina por senderos llenos de vida y sabiduría.
 
 Cupos limitados. Reserva tu lugar y déjate envolver por la niebla y la energía del bosque.`,
-		 included: [
-			 'Transporte desde Bogotá (público)',
-			 'Transporte 4x4 desde Subachoque',
-			 'Ingreso a la reserva',
-			 'Guía local y guía profesional (WFR)',
-			 'Seguro de accidentes',
-			 'Registro fotográfico'
-		 ],
-		 images: [...Array(8).keys()].map((i) => i + 1).map((n) => `/santuario-de-niebla/${n}.jpeg`)
-	 },
+		included: [
+			'Transporte desde Bogotá (público)',
+			'Transporte 4x4 desde Subachoque',
+			'Ingreso a la reserva',
+			'Guía local y guía profesional (WFR)',
+			'Seguro de accidentes',
+			'Registro fotográfico'
+		],
+		images: [...Array(8).keys()].map((i) => i + 1).map((n) => `/santuario-de-niebla/${n}.jpeg`)
+	},
 	{
 		title: 'La cara del indio',
 		slug: 'la-cara-del-indio',
@@ -147,6 +147,29 @@ La experiencia a la que les invitamos, pasará por visitar pinturas rupestres, c
 		images: [...Array(5).keys()].map((i) => i + 1).map((n) => `/bosque-encantado/${n}.jpeg`)
 	},
 	{
+		title: 'Alto del rayo - en Choachí, Cundinamarca',
+		slug: 'alto-del-rayo',
+		details: `Cupo máx.: 7-11 personas
+Tipo de ruta: Recorrido- montañismo
+Distancia: 14 km aprox.
+Tiempo de recorrido: 6-7 hr aprox.
+Nivel de dificultad: Nivel 4 de 5`,
+		description: `Una experiencia para retar la mente y el cuerpo. Del bosque endémico al páramo de Chingaza. Será un recorrido entre los 2.600 msnm y los 3.700 msnm.
+
+Es una ruta perfecta para el avistamiento de aves de montaña y orquídeas exóticas mientras subes por un cañón increíble.`,
+		included: [
+			'Entrada a la Reserva comunitaria',
+			'Seguro de accidentes',
+			'Transporte 4x4 desde Choachí al punto inicial del recorrido',
+			'Registro fotográfico',
+			'Interpretación ambiental y cultural',
+			'Guianza local y profesional',
+			'Posible avistamiento del Oso de Anteojos',
+			'Visita y reconocimiento de sitios de interés'
+		],
+		images: [...Array(9).keys()].map((i) => i + 1).map((n) => `/alto-del-rayo/${n}.jpeg`)
+	},
+	{
 		title: 'Cascada la Chorrera',
 		slug: 'cascada-la-chorrera',
 		details: `Duración estimada de la ruta: 4 horas -  5 km
@@ -186,6 +209,35 @@ Un recorrido por la asombrosa historia de las antiguas civilizaciones que habita
 		],
 		images: [...Array(5).keys()].map((i) => i + 1).map((n) => `/laguna-sagrada-de-ubaque/${n}.jpeg`)
 	},
+	{
+		title: 'Camina Entre Gigantes en Choachí',
+		slug: 'camina-entre-gigantes-choachi',
+		details: `Duración estimada: 5-6 horas
+Distancia: 10.5 km aprox.
+Sendero tipo: Recorrido - montañismo
+Exigencia: 3.8 de 5 Media Alta
+Cupo máximo: 7-11 personas
+Ecosistema: Bosque endémico de amortiguación del Páramo de Chingaza
+Altitud: 2.600 - 3.300 msnm`,
+		description: `Nuestro destino estará inmerso en un bosque endémico de amortiguación del Páramo de Chingaza, costado occidental de la Cordillera Oriental. Un bosque con características particulares de vegetación y biodiversidad, donde estarás rodeado de frailejones, pastos y helechos gigantes.
+
+Será un recorrido entre los 2.600 msnm y los 3.300 msnm
+
+Es una ruta perfecta para el avistamiento de aves de montaña y orquídeas exóticas. En medio del recorrido llegaremos a la Laguna del Paramillo, una bella acumulación de agua recién nacida del Páramo de Chingaza`,
+		included: [
+			'Entrada a la Reserva comunitaria',
+			'Seguro de accidentes',
+			'Transporte 4x4 desde Choachí al punto inicial del recorrido',
+			'Registro fotográfico',
+			'Interpretación ambiental y cultural',
+			'Guianza local y profesional',
+			'Posible avistamiento del Oso de Anteojos',
+			'Visita y reconocimiento de sitios de interés',
+			'Guía de aves y orquídeas'
+		],
+		images: [...Array(10).keys()].map((i) => i + 1).map((n) => `/camina-entre-gigantes-choachi/${n}.jpeg`)
+	},
+
 	{
 		title: 'Ruta Biocultural Mhuysca',
 		slug: 'ruta-biocultural-mhuysca',
